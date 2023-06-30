@@ -1,0 +1,64 @@
+.number-of-tickets {
+    background-color: white;
+    padding-bottom: 55px;
+    border-bottom: 1px solid #c4c4c4;
+}
+.number-of-tickets h4 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 19px;
+    font-family: Roboto-Bold;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.tickets-container-number {
+    display: flex;
+    align-items: stretch;
+}
+.tickets-number {
+    padding: 15px 20px 15px;
+}
+.tickets-number:hover {
+   outline: 1px solid #ffa800;
+}
+.tickets-number-active {
+    background: #F7F6F6;
+ }
+.tickets-number input {
+    width: 90%;
+    padding: 12px 10px; 
+    border-radius: 5px;
+    border: 1px solid #928F94;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+}
+
+.tickets-first-number {
+    width: 33.33%;
+}
+.tickets-second-number {
+    width: 33.33%;
+}
+.tickets-third-number {
+    width: 33.33%;
+}
+.tickets-number-active p {
+    font-family: Roboto;
+    color: black;
+}
+.tickets-number p {
+    font-family: Roboto;
+    color: #928F94;
+}
+.tickets-type-wagons {
+    background: white;
+}
+.tickets-type-wagons h4 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 19px;
+    font-family: Roboto-Bold;
+    font-size: 1.5rem;
+    font-weight: 700;
+}

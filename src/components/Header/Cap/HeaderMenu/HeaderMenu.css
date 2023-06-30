@@ -1,0 +1,26 @@
+.menu {
+    position: absolute;
+    width: 100%;
+    background-color: #292929;
+    display: flex;
+}
+.menu-container {
+    width: 75%;
+    margin: auto;
+    padding: 5px 5px;
+    display: flex;
+}
+.menu-item {
+    font-family: Roboto-Thin;
+    margin-right: 30px;
+    font-weight: 300;
+    font-size: 1.875rem;
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    margin: 10px 20px 10px 0;
+}
+.menu-item:hover {
+    color: #FFA800;
+    cursor: pointer;
+}

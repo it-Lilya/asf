@@ -1,0 +1,204 @@
+.footer {
+    background-color: #2D2B2F;
+    position: relative;
+    margin-top: 110px;
+}
+.footer-container {
+    width: 75%;
+    min-height: 400px;
+    margin: auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-contacts {
+    width: 40%;
+}
+.contacts-title {
+    font-family: Roboto;
+    font-size: 1.875rem;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+li { 
+    list-style-type: none;
+}
+.contacts-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contacts-item {
+    color: white;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.0625rem;
+    white-space: pre-line;
+}
+.contacts-list > li {
+    margin-top: 30px;
+    position: relative;
+    
+}
+.cont-phone, .cont-email, .cont-skype, .cont-address {
+    margin-left: 45px;
+} 
+.cont-phone::before, .cont-email::before, .cont-skype::before, .cont-address::before {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 30px;
+    height: 30px;
+    left: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cont-phone::before {
+    background-image: url('/src/images/phone.png');
+}
+.cont-email::before {
+    background-image: url('/src/images/email.png');
+}
+.cont-skype::before {
+    background-image: url('/src/images/skype.png');
+}
+.cont-address::before {
+    background-image: url('/src/images/Vector.png');
+}
+.footer-subscription {
+    width: 55%;
+    height: 100%;
+}
+.subscribe-title {
+    font-family: Roboto;
+    font-size: 1.875rem;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px;
+}
+.sub-form-title {
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 12px;
+}
+.subscriptions-form {
+    display: flex;
+    justify-content: space-between;
+}
+.sub-form-input {
+    width: 60%;
+    padding: 10px;
+    font-family: Roboto;
+    font-size: 1.5rem;
+}
+.sub-form-btn {
+    width: 30%;
+    background-color: #2D2B2F;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.sub-form-btn:hover {
+    border: 1px solid #FFA800;
+    color: #FFA800;
+    cursor: pointer;
+}
+
+.sub-links-title {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-family: Roboto;
+    font-size: 1.875rem;
+    font-weight: 500;
+    color: white;
+}
+.sub-links-list {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+.sub-link {
+    width: 3%;
+    height: 32px;
+    position: absolute;
+    content: '';
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-size: contain;
+    background-position: center;
+}
+.link-youtube {
+    background-image: url('/src/images/youtube.png');
+}
+.link-youtube:hover {
+    background-image: url('/src/images/hover-youtube.png');
+}
+.link-linkedin {
+    background-image: url('/src/images/linkedin.png');
+}
+.link-linkedin:hover {
+    background-image: url('/src/images/hover-linkedin.png');
+}
+.link-googleplus {
+    background-image: url('/src/images/gplus.png');
+}
+.link-googleplus:hover {
+    background-image: url('/src/images/hover-gplus.png');
+}
+.link-facebook {
+    background-image: url('/src/images/facebook.png');
+    margin-left: -0.5%;
+}
+.link-facebook:hover {
+    background-image: url('/src/images/hover-facebook.png');
+}
+.link-twitter {
+    margin-left: -10px;
+    background-image: url('/src/images/twitter.png');
+}
+.link-twitter:hover {
+    background-image: url('/src/images/hover-twitter.png');
+}
+.footer-line {
+    border-top: 1px solid #E5E5E5;
+    height: 60px;
+    padding: 20px 0 ;
+}
+.footer-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;   
+}
+.footer-logo-text {
+   font-family: Roboto-Bold;
+   font-weight: 900;
+   font-size: 2.25rem;
+   color: white;
+}
+.footer-date-text {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #E5E5E5;
+}
+.scroll {
+    width: 36px;
+    height: 36px;
+    border: none;
+    cursor: pointer;
+    background-image: url('/src/images/up.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: #2D2B2F;
+}

@@ -1,0 +1,69 @@
+.last-cards-container {
+    border: 1px solid #c4c4c4;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.last-cards-first-city, .last-cards-second-city {
+    width: 35%;
+}
+.last-cards-city-container {
+    display: flex;
+    justify-content: space-between;
+}
+.last-card-city {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+.last-second-name {
+    text-align: right;
+}
+.railway-station {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #928f94;
+    word-wrap: break-word;
+}
+.second-railway-station {
+    text-align: right;
+}
+.panel-with-options {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.panel-options-icons {
+    display: flex;
+    justify-content: space-between;
+}
+.icons-options {
+    background-size: cover;
+    width: 25px;
+    height: 20px;
+}
+.icons-options:nth-child(n+2) {
+    margin-left: 10px;
+}
+.icons-options {
+    background-image: url('/src/images/wi-fi.png');
+}
+.information-price-panel {
+    font-family: Roboto;
+}
+.panel-price-from {
+    color:#928F94;
+}
+.panel-price {
+    font-family: Roboto-Bold;
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: #ffa800
+}
+.panel-vector {
+    color: #928F94;
+    font-size: 2.25rem;
+}

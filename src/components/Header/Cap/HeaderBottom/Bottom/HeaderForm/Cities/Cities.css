@@ -1,0 +1,40 @@
+.citi-hidden{
+    display: none;
+}
+.open-citi-list {
+    display: block;
+    width: 96%;
+    background-color: #310859;
+    margin-left: 1px;
+    position: absolute;
+    content: '';
+    z-index: 10;
+}
+.city-list {
+    background-color: rgb(233, 228, 228);
+    padding: 5px;
+    overflow-y: scroll;
+    max-height: 100px; 
+}
+.icon-form {
+    width: 6%;
+    height: 25px;
+    margin-left: 3%;
+    background-image: url('/src/images/ic_cached_white_48dp.png');
+    background-repeat: no-repeat;
+    right: 2px;
+    padding-top: 5px;
+    border: none;
+    background-color: transparent;
+}
+.city-element {
+    margin-bottom:7px;
+    padding: 5px 5px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+.city-element:hover {
+    color: #FFA800;
+}

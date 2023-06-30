@@ -1,0 +1,189 @@
+.select-seats-container {
+    width: 72%;
+    margin-top: 50px;
+    padding-bottom: 60px;
+}
+.select-seats-container h3 {
+    font-family: Roboto;
+    font-size: 1.875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.select-seats-contain {
+    margin-top: 50px;
+    width: 100%;
+    /* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); */
+    border: 1px solid #c4c4c4;
+    position: relative;
+}
+.select-top-panel {
+    background: white;
+    height: 60px;
+    padding: 19px;
+    display: flex;
+}
+.select-top-icon {
+    width: 76px;
+    height: 100%;
+    background-image: url('/src/images/Subtract-left.png');
+    background-size: contain;
+}
+.select-top-btn {
+    border: 1px solid #292929;
+    border-radius: 5px;
+    margin-left: 20px;
+    background: transparent;
+    padding: 10px 15px;
+    font-family: Roboto-Bold;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.select-seats-information {
+    background-color: #f7f6f6;
+    padding: 0 35px;
+    display: flex;
+    justify-content: space-between;
+    height: 190px;
+}
+
+.seat-first-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 17%;
+    height: 100%;
+}
+.select-seats-border {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #ffa800;
+    border-radius: 50%;
+}
+.seats-border-vector {
+    position: absolute;
+    content: '';
+    width: 15.3px;
+    height: 20px;
+    background-image: url('/src/images/train-mini.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 25%;
+    top: 15%;
+}
+.seats-flex-container {
+    margin-left: 10%;
+}
+.seats-train-name {
+    font-family: Roboto-Bold;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #3E3C41;
+}
+.seats-line-city-container {
+    display: flex;
+    align-items: center;
+    width: 100px;
+}
+.seats-arrow-train {
+    margin-left: 12px;
+    display: block;
+    width: 7px;
+    height: 6px;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    transform: rotate(135deg);
+}
+.seats-arrow-train::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 15px;
+    background-color: black;
+    transform: rotate(-45deg) translate(4.9px, 1px);
+    left: 0;
+    top: 0;
+}
+.seat-second-container {
+    width: 60%;
+    height: 100%;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+}
+.seat-new-card-container {
+    display: flex;
+}
+.seat-third-container {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+}
+.seats-third-vector {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid #ffa800;
+    transform: rotate(-135deg);
+    left: 26%;
+    top: 27%;
+}
+.seats-third-vector::before {
+    position: absolute;
+    content: '';
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid white;
+    margin-left: -9px;
+    margin-top: 3px;
+}
+.seats-third-vector-time {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150%;
+    margin-top: -5px;
+    width: 150px;
+}
+.seats-third-vector-time p {
+    white-space: no-wrap;
+    font-family: Roboto;
+    font-size: 1.125rem;
+}
+.select-main {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+.select-bottom {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    height: 580px;
+    background-color: white;
+}
+.button-next-btns {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    position: absolute;
+    content: '';
+    right: 7px;
+    font-family: Roboto-Bold;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 15px 70px;
+    background: #ffa800;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.button-next-btns:focus {
+    background: #928F94;
+}
+.button-next-btns:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}

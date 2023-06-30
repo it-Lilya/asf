@@ -1,0 +1,94 @@
+.bottom-form-container {
+    width: 48%;
+    height: 426px;
+    position: relative;
+}
+.bottom-form-container::before {
+    background: rgba(41, 41, 41, 0.8);
+    opacity: 0.9;
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+}
+.bottom-form {
+    padding: 0px 15px;
+    position: absolute;
+    width: 92%;
+}
+.form-direction {
+    font-family: Roboto-Light;
+    font-size: 1.875rem;
+    color: white;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    height: 40px;
+}
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 30px;
+}
+.city-inputs {
+    width: 45%;
+    height: 35px;
+    position: relative;
+}
+
+.form-input {
+    padding-left: 7px;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    width: 97%;
+    height: 40px;
+}
+.vector-city {
+    position: absolute;
+    width: 30px;
+    height: 35px;
+    right: 0;
+    top: 5px;
+    background-image: url('/src/images/Vector.png');
+    background-repeat: no-repeat;
+    margin-top: 3px;
+}
+.search-data {
+    margin-top: -35px;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+.search-blocks {
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.search-button {
+    position: absolute;
+    content: '';
+    top: 80%;
+    right: 6%;
+    width: 41%;
+    padding: 10px 25px;
+    background-color: #FFA800;
+    font-family: Roboto-Bold;
+    font-size: 1rem;
+    white-space: nowrap;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.search-button:hover {
+    box-shadow: 2px 2px 2px rgb(59, 59, 59);
+}
+.search-button:active {
+    box-shadow: 1px 1px 1px 1px rgb(106, 106, 106);
+    background-color: rgba(0, 0, 0, 0);
+    color: white
+}
+.change-btn {
+    border: 1px solid rebeccapurple;
+    z-index: -1;
+}

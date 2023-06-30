@@ -1,0 +1,101 @@
+.line-input {
+    display: flex;
+    justify-content: space-between;
+}
+.direction-title-time {
+    font-family: Roboto;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: white;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 15px;
+} 
+.second-time {
+    text-align: right;
+    white-space: nowrap;
+}
+.result {
+    width: 40px;
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 400;
+}
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.slider-first, .slider-second {
+    height: 10px;
+    background: transparent;
+    position: relative;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+
+.progress-first, .progress-second {
+    height: 10px;
+    position: absolute;
+    background: #FFA800;
+    left: 20%;
+    right: 20%;
+}
+.range-inputs-first,  .range-inputs-second {
+    position: relative;
+}
+.range-inputs-first input,
+.range-inputs-second input {
+    position: absolute;
+    top: -8px;
+    height: 5px;
+    width: 100%;
+    background: none;
+    -webkit-appearance: none;
+    pointer-events: none;
+}
+.range-inputs-first input[type='range']::-webkit-slider-thumb {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: white;
+    -webkit-appearance: none;
+    pointer-events: auto;
+} 
+.range-inputs-first input[type='range']::-moz-range-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: green;
+    -moz-appearance: none;
+    pointer-events: auto;
+    border: none;
+} 
+.range-inputs-second input[type='range']::-webkit-slider-thumb {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: white;
+    -webkit-appearance: none;
+    pointer-events: auto;
+} 
+.range-inputs-second input[type='range']::-moz-range-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: green;
+    -moz-appearance: none;
+    pointer-events: auto;
+    border: none;
+} 
+
+.line-input-first, .line-input-second {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.result-input{
+    display: none;
+}

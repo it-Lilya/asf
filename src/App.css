@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html { 
+  scroll-behavior: smooth;
+}
+body {
+  width: 1920px;
+  background-color: #e5e5e5;
+  user-select: none;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url(../src/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url(../src/fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url(../src/fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url(../src/fonts/Roboto-Bold.ttf);
+}

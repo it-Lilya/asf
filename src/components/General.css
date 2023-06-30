@@ -1,0 +1,63 @@
+.app-hide {
+    background: rgb(0, 0, 0);
+    z-index: -1;
+    opacity: 0.8;
+    /* position: absolute; */
+}
+.error-window {
+    display: none;
+}
+.window-active {
+    display: block;
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    width: 600px;
+    z-index: 2;
+    background: white;
+}
+.window-header {
+    height: 100px;
+    background: rgba(255, 61, 0, 0.38);
+}
+.window-sign {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    content: '';
+    left: 7%;
+    top: 7%;
+    background-image: url('/src/images/atten.png');
+    background-size: cover;
+    transform: rotate(180deg);
+}
+.window-text {
+    width: 93%;
+    padding: 20px 20px 20px 20px;
+    border-bottom: 1px dashed #928F94;
+}
+.window-text-first {
+    font-family: Roboto-Bold;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.window-text-second {
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.window-button-container {
+    height: 90px;
+}
+.window-button {
+    background: transparent;
+    border: 1px solid #292929;
+    border-radius: 5px;
+    padding: 12px 35px;
+    margin-left: 37%;
+    margin-top: 3%;
+    font-family: Roboto-Bold;
+    font-size: 1.5rem;
+    font-weight: 700;
+}

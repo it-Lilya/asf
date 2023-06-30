@@ -1,0 +1,81 @@
+.translators {
+    width: 75%;
+    margin: 50px auto 50px;
+    height: 300px;
+}
+.translator-title {
+    font-family: Roboto;
+    font-size: 2.25rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.translators-container {
+    display: flex;
+    justify-content: space-between;
+}
+.review {
+    width: 47%;
+    display: flex;
+}
+.review-image {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-right: 20px;
+    margin: auto 20px auto 0;
+    background-size: cover;
+}
+.review-content {
+    margin: 15px 0;
+    position: relative;
+} 
+.review-name {
+    font-family: Roboto;
+    font-size: 1.70rem;
+    margin-bottom: 15px;
+}
+.review-text {
+    font-family: Roboto-Then;
+    font-weight: 100;
+    font-size: 1.2rem;
+    color: #928F94;
+}
+.quotes {
+    font-family: Roboto;
+    font-size: 2.25rem;
+    color: #69676a;
+    font-weight: 500;
+}
+.quotes-first {
+    position: absolute;
+    content: '';
+    left: -15px;
+    top: 40px;
+}
+.qoutes-second {
+    position: absolute;
+    content: '';
+    margin-left: 9px;
+    margin-top: -15px;
+}
+.carousel-dots {
+    width: 150px;
+    margin: 25px auto;
+}
+.dots-container {
+    display: flex;
+    justify-content: space-between;
+}
+.dots {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    list-style-type: none;
+    background-color: #c6c5c5;
+}
+.dots:hover {
+    cursor: pointer;
+}
+.dots-active {
+    background-color: #929191;
+}

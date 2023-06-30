@@ -1,0 +1,105 @@
+.work {
+    height: 450px;
+    position: relative;
+    padding-bottom: 70px;
+}
+.work::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('/src/images/work.png');
+    background-size: cover;
+    background-color: rgb(163, 96, 45);
+    opacity: 0.95;
+}
+.information-work {
+    position: relative;
+    content: '';
+    width: 75%;
+    margin: auto;
+    height: 100%;
+    padding-top: 30px;
+}
+.work-container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.work-title {
+    font-family: Roboto;
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    color: white;
+}
+.work-button {
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 8px 20px;
+    background: none;
+    color: white;
+    font-family: Roboto;
+    font-size: 1.5rem;
+}
+.work-button:hover {
+    border: 1px solid #FFA800;
+    color: #FFA800;
+    cursor: pointer;
+} 
+.group-links {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.vector-btn {
+    width: 33%;
+}
+.btn-vector {
+    margin: auto;
+    height: 134px;
+    width: 134px;
+    border-radius: 50%;
+    border: none;
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: start;
+    position: relative;
+}
+.btn-vector-image {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    border-radius: 50%;
+    position: absolute;
+    content: '';
+    background-size: cover;
+    background-color: #FFA800;
+}
+.btn-vector-image:nth-child(n+2) {
+    margin-left: 7px;
+}
+.img-first {
+    background-image: url('/src/images/first.png');
+}
+
+.img-second {
+    background-image: url('/src/images/second.png');
+}
+.img-third {
+    background-image: url('/src/images/third.png');
+}
+.vector-text {
+    width: 90%;
+    margin: 25px auto;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}

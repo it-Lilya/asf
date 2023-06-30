@@ -1,0 +1,43 @@
+.first-element-container {
+    background-color: #3e3c41;
+    padding: 0 15px 20px;
+    margin-top: 50px;
+}
+.date-travel {
+    position: relative;
+}
+.date-travel:first-child {
+    margin-bottom: 15px;
+}
+.travel-title {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1.85rem;
+    color: white;
+    white-space: nowrap;
+    padding: 20px 0px 10px;
+}
+
+.travel-date {
+    width: 90%;
+    height: 40px;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    padding-left: 7px;
+    padding-right: 10px;
+    margin: 10px 0;
+    position: relative;
+}
+
+.travel-vector {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 35px;
+    right: 7%;
+    top: 75px;
+    background-image: url('/src/images/Vector\ \(1\).png');
+    background-repeat: no-repeat;
+    margin-top: 3px;
+    z-index: 1;
+}

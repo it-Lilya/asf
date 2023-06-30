@@ -1,0 +1,35 @@
+
+.information {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.information-title {
+    font-family: Roboto;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.information-text {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.trait {
+    border-left: 5px solid #FFA800;
+}
+.text-info {
+    margin-top: 10px;
+    width: 97%;
+}
+.texts {
+    font-family: Roboto;
+    font-size: 18px;
+}
+.texts:nth-child(n + 2) {
+    margin-top: 23px;
+}
+.selection-text {
+    font-family: Roboto-Bold;
+    font-weight: 800;
+}

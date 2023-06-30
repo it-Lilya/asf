@@ -1,0 +1,55 @@
+.direction-container {
+    margin-top: 1px;
+    background-color: #3e3c41;
+    padding: 0px 20px;
+}
+.direction-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.img-direction-first {
+    background-image: url('/src/images/Subtract.png');
+    background-size: cover;
+    width: 32px;
+    height: 26px;
+}
+.img-direction-second {
+    background-image: url('/src/images/Subtract-back.png');
+    background-size: cover;
+    width: 32px;
+    height: 26px;
+}
+
+.direction-title {
+    margin-left: 10px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 1.65rem;
+    color: white;
+    margin-top: -25px;
+}
+.icon-direction {
+    width: 20px;
+    height: 20px;
+    background-image: url('/src/images/show-up.png');
+    background-size: cover;
+    background-color: transparent;
+    left: 20%;
+    position: absolute;
+    border: none;
+}
+.icon-direction:hover {
+    background-image: url('/src/images/show-hover.png');
+}
+.open-direction-data {
+    width: 20px;
+    height: 20px;
+    background-image: url('/src/images/show-up.png');
+    background-size: cover;
+    background-color: transparent;
+    left: 20%;
+    position: absolute;
+    border: none;
+    background-image: url('/src/images/show-down.png');
+}

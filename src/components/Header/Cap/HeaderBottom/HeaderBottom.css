@@ -1,0 +1,20 @@
+.header-bottom {
+    width: 75%; 
+    position: relative;
+    margin: 300px auto 120px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.bottom-tigline {
+    width: 45%;
+    color: #fff;
+    font-family: Roboto-Thin;
+    font-size: 4.5rem;
+    font-weight: 100;
+}
+.selection {
+    font-family: Roboto-Bold;
+    font-weight: 800;
+}

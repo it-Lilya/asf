@@ -1,0 +1,363 @@
+.cards-sorting-container {
+    margin-top: 35px;
+    display: flex;
+    align-items: stretch;
+    align-self: stretch;
+    align-content: flex-end;
+    min-height: 200px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.cards-sorting-container:hover {
+    box-shadow: 0px 2px 2px #ffa800;
+}
+.directions_city-information {
+    width: 20%;
+    background: #E4E0E9;
+    padding-bottom: 25px;
+}
+.directions_city-border {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 20%;
+    width: 90px;
+    height: 90px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+.border-vector {
+    position: absolute;
+    margin: 19px 23px;
+    background-image: url('/src/images/train.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    width: 44px;
+    height: 52px;
+}
+.train-name {
+    margin: 20px auto;
+    padding-left: 10%;
+    font-family: Roboto-Bold;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.train-destinations {
+    width: 78%;
+    margin: auto;
+}
+.direction-line-container {
+    display: flex;
+    align-items: center;
+}
+.direction-line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    align-items: baseline;
+}
+.direction-line-city {
+    font-family: Roboto;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+.arrow-train {
+    margin-left: 12px;
+    display: block;
+    width: 7px;
+    height: 6px;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    transform: rotate(135deg);
+}
+.arrow-train::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 15px;
+    background-color: black;
+    transform: rotate(-45deg) translate(4.9px, 1px);
+    left: 0;
+    top: 0;
+}
+
+
+
+
+
+
+
+
+.main-direction-information {
+    background: white;
+    width: 80%;
+    min-height: 300px;
+    padding: 20px 0 30px;
+}
+
+
+.card-ticket-container {
+    display: flex;
+    justify-content: space-between;
+    width: 56.7%;
+    min-height: 320px;
+    position: absolute;
+}
+.first-card-ticket {
+    width: 60%;
+    height: 60%;
+}
+.second-card-ticket {
+    width: 28%;
+    margin-left: 0;
+    min-height: 255px;
+    border-left: 1px dashed #e5e5e5; 
+    padding: 15px 20px 0px;
+    display: flex;
+    flex-direction: column;
+} 
+.new-card-container {
+    padding-top: 20px;
+    display: flex;
+    justify-content:center;
+    width: 70%;
+}
+.new-card-info {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    content: '';
+    width: 58%;
+    margin-left: 22%;
+}
+.new-card-first {
+    width: 40%;
+}
+.new-card-second {
+    width: 10%;
+}
+.new-card-third {
+    width: 40%;
+    margin-right: -5%;
+}
+.new-card-date {
+    font-family: Roboto-Bold;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.new-card-city {
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #292929;
+    text-transform: capitalize;
+}
+.new-card-station {
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #928f94;
+}
+.new-card-second {
+    width: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.available-time {
+    font-family: Roboto;
+    font-size: 1.2rem;
+    color: #c4c4c4;
+    margin-top: 15px;
+    width:48px;
+}
+.new-card-arrow-right {
+    margin-top: 45px;
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 23px;
+    background-image: url('/src/images/arrow-right.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+} 
+
+
+.type-container {
+    position: relative;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-right: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wagons-container {
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    content: '';
+    margin-bottom: 40%;
+    width: 100%;
+    margin-top: 10px;
+}
+.wagons-icon {
+    width: 40%;
+    height: 30px;
+    margin-left: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.wagons-icon i {
+    position: relative;
+    width: 22px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.wagons-icon-first {
+    background-image: url('/src/images/have-wifi.png');
+}
+.wagons-icon-second {
+    background-image: url('/src/images/have-express.png');
+}
+.wagons-icon-third {
+    margin-left: 2px;
+    background-image: url('/src/images/have-cup.png');
+}
+
+.select-seats-btn {
+    margin-top: 20px;
+    background-color: #ffa800;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 17px;
+    font-family: Roboto;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white;
+}
+.select-seats-btn:hover {
+    box-shadow: 1px 1px 1px rgb(149, 149, 149);
+}
+.select-seats-btn:focus {
+    background: transparent;
+    color: #ffa800;
+    border: 1px solid #ffa800;
+}
+
+.type-wagons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    width: 100%;
+    z-index: 1;
+    height: 30px;
+    margin-bottom: 5px;
+}
+.wagons-name {
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 45%;
+}
+.number-of-seats {
+    font-family: Roboto-Bold;
+    font-weight: 500;
+    color: #ffa800;
+    width: 10%;
+    margin-right: 15px;
+}
+.starting-price {
+    display: flex;
+    align-items: center;
+    width: 45%;
+}
+.span-starting {
+    color: #928f94;
+    margin-right: 5px;
+    font-family: Roboto;
+}
+.span-starting-price {
+    font-family: Roboto-Bold;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #2d2b2f;
+}
+
+.span-starting-vector {
+    color: #928f94;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+/* .mouse-open-list {
+    display: none;
+}
+.mouse-open-list-active {
+    display: block;
+    background: #e5e5e5;
+    border-radius: 5%;
+    margin-top: 3px;
+    padding: 0 5px;
+    position: relative;
+    height: 55px;
+    width: 200px;
+    z-index: 1;
+}
+.mouse-open-list-active p {
+    padding: 1px 6px;
+}
+.mouse-open {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.mouse-vector {
+    color: #928f94;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    margin-left: -15px;
+}
+.mouse-open-list-active::after {
+    height: 20px;
+    content: '';
+    top: -38px;
+    margin-left: 35%;
+    position: absolute;
+    content: '';
+    border: 10px solid transparent;
+    border-bottom: 10px solid #e5e5e5;
+}
+  */
+.new-card-info-second {
+    position: absolute;
+    bottom: 0;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    content: '';
+    width: 58%;
+    margin-left: 22%;
+}
+.new-card-arrow-left {
+    margin-top: 45px;
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 23px;
+    background-image: url('/src/images/arrow-left.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+} 

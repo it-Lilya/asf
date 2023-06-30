@@ -1,0 +1,226 @@
+.tickets-type-wagons-container {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px 0 20px;
+}
+.tickets-type-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 110px;
+}
+.tickets-type-icon p {
+    margin-top: 12px;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    color: #928f94;
+}
+.tickets-type-sedentary {
+    background-image: url('/src/images/sedentary.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+.tickets-type-reserved {
+    background-image: url('/src/images/reserved.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+.tickets-type-cupe {
+    background-image: url('/src/images/coupe.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+.tickets-type-lux {
+    background-image: url('/src/images/lux.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+.tickets-type-icon-sedentary:hover div {
+    background-image: url('/src/images/sedentary-focus.png');
+} 
+.tickets-type-icon-reserved:hover div {
+    background-image: url('/src/images/reserved-focus.png');
+}
+.tickets-type-icon-cupe:hover div {
+    background-image: url('/src/images/coupe-focus.png');
+}
+.tickets-type-icon-lux:hover div {
+    background-image: url('/src/images/lux-focus.png');
+}
+.tickets-type-icon:hover p {
+    color: #ffa800;
+}
+.tickets-wagon-information {
+    background: #FFD98F;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.tickets-wagon-information p {
+    font-family: Roboto;
+    font-size: 1.125rem;
+}
+.tickets-wagon-column {
+    height: 180px;
+    display: flex;
+}
+.wagon-number-information {
+    background: #FFD98F;
+    width: 11%;
+    padding: 34px 5%;
+}
+.wagon-number-information p {
+    align-content: center;
+}
+.wagon-number-information-first {
+    font-family: Roboto-Bold;
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+.wagon-number-information-second {
+    font-family: Roboto;
+    font-size: 1.5rem;
+}
+.wagon-information-header {
+    width: 80%;
+    padding: 20px 30px 10px;
+} 
+.wagon-information-titles {
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 22px;
+}
+.wagon-information-titles p {
+    font-family: Roboto;
+    font-size: 1.125rem;
+    color: #928F94;
+}
+.wagon-information-main {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.wagon-information-left {
+    width: 50%;
+    margin: 0 20px 10px 10px;
+}
+.wagon-information-flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px 45px 10px 0;
+}
+
+
+
+
+.wagon-information-right {
+    width: 23%;
+    margin-right: 2%;
+}
+.wagon-information-icons-container {
+    margin-top: 10px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.wagon-icons-button {
+    border: 1px solid #292929;
+    width: 36px;
+    border-radius: 5px;
+    position: relative;
+    background-color: transparent;
+}
+.wagon-icons-element {
+    width: 20px;
+    height: 22px;
+    position: absolute;
+    content: '';
+    left: 22%;
+    top: 22%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.conditioner {
+    background-image: url('/src/images/Group\ \(6\).png');
+}
+.option-wifi {
+    background-image: url('/src/images/Group\ 8.1.png');
+}
+.underwear {
+    background-image: url('/src/images/Vector\ \(9\).png');
+}
+.food {
+    background-image: url('/src/images/cup-black.png');
+}
+.wagon-icons-button:hover {
+    background-color: #FFA800;
+}
+.focus-icons {
+    border: none;
+    background-color: #FFA800;
+}
+.conditioner-focus {
+    background-image: url('/src/images/Group\(6\)-white.png');
+}
+.option-wifi-focus {
+    background-image: url('/src/images/Group\(8\)-white.png');
+}
+.underwear-focus {
+    background-image: url('/src/images/linens-white.png');
+}
+.food-focus {
+    background-image: url('/src/images/cup-white.png');
+}
+.tooltip {
+    background: #E5E5E5;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    content: '';
+    top: 34px;
+    left: -105%;
+    width: 110px;
+    height: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    font-family: Roboto;
+    font-size: 1rem;
+    padding-top: 3px;
+}
+.tooltip::after {
+    position: absolute;
+    content: '';
+    border: 5px solid transparent;
+    border-bottom: 5px solid #E5E5E5;
+    top: -9px;
+    left: 43%;
+}
+.window-wagon-scheme {
+    border-radius: 5px;
+    background: #f3f3f3;
+    width: 17%;
+    margin-left: 78%;
+    padding: 15px 10px;
+}
+.wagon-scheme-main {
+    width: 95%;
+    margin: auto;
+    padding-top: 50px;
+    height: 200px;
+}
+.wagon-scheme-main {
+    background-image: url('/src/images/scheme.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
